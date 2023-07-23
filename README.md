@@ -78,7 +78,7 @@ Los archivos a tener en cuenta son:
     + Value: Cargar el mail desde donde saldran las alertas
 12. En la pestaña Admin -> Variables crear una nueva variable con los siguientes datos:
     + Key: `SMTP_PASSWORD`
-    + Value: Cargar el password del mail cargado en la variable anterior
+    + Value: Cargar el password del mail cargado en la variable anterior. Se recomienda encriptar el password por temas de seguridad.
 13. En la pestaña Admin -> Variables crear una nueva variable con los siguientes datos:
     + Key: `SMTP_EMAIL_TO`
     + Value: Cargar el mail donde llegaran las alerta
