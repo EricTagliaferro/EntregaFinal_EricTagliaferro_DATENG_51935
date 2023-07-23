@@ -75,13 +75,13 @@ Los archivos a tener en cuenta son:
     + Puse el valor 1 como ejemplo se puede seleccionar otro threshold. Ver tarea "Transformar_data" en el punto 15)
 11. En la pestaña Admin -> Variables crear una nueva variable con los siguientes datos:
     + Key: `SMTP_EMAIL_FROM`
-    + Value: `Cargar el mail desde donde saldran las alertas`
+    + Value: Cargar el mail desde donde saldran las alertas
 12. En la pestaña Admin -> Variables crear una nueva variable con los siguientes datos:
     + Key: `SMTP_PASSWORD`
-    + Value: `Cargar el password del mail cargado en la variable anterior`
+    + Value: Cargar el password del mail cargado en la variable anterior
 13. En la pestaña Admin -> Variables crear una nueva variable con los siguientes datos:
     + Key: `SMTP_EMAIL_TO`
-    + Value: `Cargar el mail donde llegaran las alerta`
+    + Value: Cargar el mail donde llegaran las alerta
 14. Ejecutar el DAG `Entregable3_Eric`
 15. Ejecutar las tareas en el orden dado:
     + Extraer_info
